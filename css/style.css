@@ -167,7 +167,7 @@ section {
 
 
 
-.header__dark {grid-area: header;}
+/* .header__dark {grid-area: header;}
 .main__nav {grid-area: nav;}
 .content {grid-area: content;}
 
@@ -178,5 +178,5 @@ section {
     "nav nav content content content content"
     "nav nav content content content content";
 }
-
+ */
 
