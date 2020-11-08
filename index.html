@@ -10,78 +10,113 @@
 </head>
 
 <body>
-    <header class="header__dark">
-        <h3 class="header__title">Admin Page</h3>
-        <div class="header__search">
-            <input class="search__input" type="text">
-            <button class="search__btn">
-                <i class="fas fa-search"></i>
-            </button>
-                       
-        </div>
-    </header>
-    <main>
-        <aside>
-            <nav class="main__nav">
-                <ul class="nav__ul">
-                    <li>
-                        <h1>Core</h1>
-                        <i class="fa fa-tachometer"></i>
-                    </li>
-                    <li>
-                        <h1>Dashboard</h1>
-                        <i class="fa fa-windows"></i>
-                    </li>
-                    <li>
-                        <h1>Interface</h1>
-                        <i class="fa fa-bookmark"></i>
-                    </li>
-                    <li>
-                        <h1>Layouts</h1>
-                        <i class="fa fa-area-chart"></i>
-                    </li>
-                    <li>
-                        <h1>Pages</h1>
-                        <i class="fa fa-table"></i>
-                    </li>
-                    <li>
-                        <h1>Addons</h1>
-                    </li>
-                    <li>
-                        <h1>Charts</h1>
-                    </li>
-                    <li>
-                        <h1>Tables</h1>
-                    </li>
-                </ul>
-            </nav>
-        </aside>
-        <section class="content">
-            <h1>Dashboard</h1>
-            <div class="main__breadcrumb">
-                <ul class="breadcrumb">
-                    <li><a href="#">Dashboard</a></li>
-                </ul>
+    <div class="grid-container">
+        <header class="header__dark">
+            <h3 class="header__title">Admin Page</h3>
+            <div class="header__search">
+                <input class="search__input" type="text" placeholder="Search for...">
+                <button class="search__btn">
+                    <i class="fa fa-search"></i>
+                </button>
+
             </div>
-            <div class="main__cards">
-                <div class="main__card"></div>
-                <div class="main__card"></div>
-                <div class="main__card"></div>
-                <div class="main__card"></div>
-                <div class="card__top">
-                    <div class="main__card main__card--blue"></div>
-                    <div class="main__card main__card--yellow"></div>
-                    <div class="main__card main__card--green"></div>
-                    <div class="main__card main__card--red"></div>
+        </header>
+        <main>
+            <aside>
+                <nav class="main__nav">
+                    <ul class="nav__ul">
+                        <li>
+                            <h1><i class="fa fa-tachometer"></i> Core</h1>
+
+                        </li>
+                        <li>
+                            <h1><i class="fa fa-windows"></i> Dashboard</h1>
+                        </li>
+                        <li>
+                            <h1><i class="fa fa-bookmark"></i> Interface</h1>
+
+                        </li>
+                        <li>
+                            <h1><i class="fa fa-area-chart"></i> Layouts</h1>
+
+                        </li>
+                        <li>
+                            <h1><i class="fa fa-table"></i> Pages</h1>
+
+                        </li>
+                        <li>
+                            <h1>Addons</h1>
+                        </li>
+                        <li>
+                            <h1>Charts</h1>
+                        </li>
+                        <li>
+                            <h1>Tables</h1>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <section class="content">
+                <h1>Dashboard</h1>
+                <div class="main__breadcrumb">
+                    <p>Dashboard</p>
+
                 </div>
-                <div class="card__bottom">
-                    <div class="main__card main__card--blue"></div>
-                    <div class="main__card main__card--yellow"></div>
-                    <div class="main__card main__card--green"></div>
-                    <div class="main__card main__card--red"></div>
+                <div class="main__cards">
+                    <div class="main__card">
+                        <div class="card__top">
+                            <div class="main__card main__card--blue">
+                                <h2>Primary card</h2>
+                            </div>
+                        </div>
+                        <div class="card__bottom">
+                            <div class="main__card main__card--blue">
+                                <h4>Weiw details</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__card">
+                        <div class="card__top">
+                            <div class="main__card main__card--yellow">
+                                <h2>Warning card</h2>
+                            </div>
+                        </div>
+                        <div class="card__bottom">
+                            <div class="main__card main__card--yellow">
+                                <h4>Weiw details</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__card">
+                        <div class="card__top">
+                            <div class="main__card main__card--green">
+                                <h2>Succes card</h2>
+                            </div>
+                        </div>
+                        <div class="card__bottom">
+                            <div class="main__card main__card--green">
+                                <h4>Weiw details</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__card">
+                        <div class="card__top">
+                            <div class="main__card main__card--red">
+                                <h2>Danger card</h2>
+                            </div>
+                        </div>
+                        <div class="card__bottom">
+                            <div class="main__card main__card--red">
+                                <h4>Weiw details</h4>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
-            </div>
-        </section>
+
+    </div>
+    </section>
     </main>
 </body>
 
