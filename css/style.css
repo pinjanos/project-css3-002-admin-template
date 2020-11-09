@@ -138,17 +138,21 @@ h4 {
     margin-right: 0;
 }
 
-.main__card--blue {
+.main__card--blue .card__top,
+.main__card--blue .card__bottom {
     background-color: rgb(0,123,255);
 }
 
-.main__card--yellow {
+.main__card--yellow .card__top,
+.main__card--yellow .card__bottom {
     background-color: rgb(255,193,7);
 }
-.main__card--green {
+.main__card--green .card__top,
+.main__card--green .card__bottom  {
     background-color: rgb(40,167,69);
 }
-.main__card--red {
+.main__card--red .card__top,
+.main__card--red .card__bottom  {
     background-color: rgb(220,53,69);
 }
 
@@ -160,14 +164,13 @@ h4 {
 
 .card__bottom {
     border-radius: 0 0 0.25rem 0.25rem;
-    border-top: solid 1px;
+    border-top: solid 1px rgba(0, 0, 0, 0.1);
     padding: 1rem 1.25rem;
     font-size: 0.85rem;
 }
 
 .main__breadcrumb {
     background-color: rgb(233,236,239);
-    border: solid;
     border-radius: 0.25rem;
     padding: 1rem 1.5rem;
     color: rgb(87, 85, 85);
